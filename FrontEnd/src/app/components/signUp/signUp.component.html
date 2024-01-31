@@ -19,37 +19,40 @@
             <div class="row">
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" class="form-control" formControlName="firstName" placeholder="First Name"/>
-                  <small *ngIf="signUpForm.controls['firstName'].touched && signUpForm.hasError('required','firstName')"
+                  <input type="text" class="form-control" formControlName="firstname" placeholder="First Name"/>
+                  <small *ngIf="signUpForm.controls['firstname'].touched && signUpForm.hasError('required','firstname')"
                   class="text-center text-danger">first name required</small>
                 </div>
               </div>
               <div class="col-md-6 mb-4">
                 <div class="form-outline">
-                  <input type="text" id="lastName" class="form-control"/>
-                  <label class="form-label" for="lastName">Last name</label>
+                  <input type="text" class="form-control" formControlName="lastname" placeholder="Last Name"/>
+                  <small *ngIf="signUpForm.controls['lastname'].touched && signUpForm.hasError('required','lastname')"
+                  class="text-center text-danger">last name required</small>
                 </div>
               </div>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
-              <input type="email" id="emailAddress" class="form-control" />
-              <label class="form-label" for="emailAddress">Email address</label>
+              <input type="email" class="form-control" formControlName="email" placeholder="email address"/>
+              <small *ngIf="signUpForm.controls['email'].touched && signUpForm.hasError('required','email')"
+              class="text-center text-danger">email address required</small>
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
-              <input type="password" id="password" class="form-control"/>
-              <label class="form-label" for="password">Password</label>
+              <input type="password" class="form-control" formControlName="password" placeholder="password"/>
+              <small *ngIf="signUpForm.controls['password'].touched && signUpForm.hasError('required','password')"
+                  class="text-center text-danger">password required</small>
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign Up</button>
             <div>
               <small class="text-center">
-                Already have an acoount?
-                <a routerLink="/login">Login</a>
+                Already have an account?
+                <a [routerLink]="['/login']">Login</a>
               </small>
             </div>
 
