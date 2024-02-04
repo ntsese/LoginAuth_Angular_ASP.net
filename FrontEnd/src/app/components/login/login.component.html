@@ -22,10 +22,14 @@
 
                   <div class="form-outline mb-4">
                     <input type="email" placeholder="Email" class="form-control form-control-lg" formControlName="email"/>
+                    <small *ngIf="loginForm.controls['email'].touched && loginForm.hasError('required', 'email')"
+                    class="text-center text-danger">Email Address Required</small>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" placeholder="password" class="form-control form-control-lg" formControlName="password" />
+                    <input type="password" placeholder="password" class="form-control form-control-lg" formControlName="password"/>
+                    <small *ngIf="loginForm.controls['password'].touched && loginForm.hasError('required', 'password')"
+                    class="text-center text-danger">Paasword Required</small>
                   </div>
 
                   <div class="pt-1 mb-4">
