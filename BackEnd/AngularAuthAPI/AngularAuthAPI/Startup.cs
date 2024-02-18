@@ -76,6 +76,14 @@ namespace AngularAuthAPI
 
             app.UseRouting();
 
+            app.UseCors(x => x
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .SetIsOriginAllowed(origin => true) //allow any origin
+            .AllowCredentials() //allow credentials
+            );
+
+            //required for authentication
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
