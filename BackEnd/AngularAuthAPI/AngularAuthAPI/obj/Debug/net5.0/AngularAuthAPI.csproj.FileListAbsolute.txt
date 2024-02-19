@@ -64,7 +64,6 @@ C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\Angu
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -90,3 +89,4 @@ C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\Angu
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\obj\Debug\net5.0\AngularAuthAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\obj\Debug\net5.0\AngularAuthAPI.csproj.CopyComplete
 C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\obj\Debug\net5.0\AngularAuthAPI.genruntimeconfig.cache
+C:\Users\Obakeng\Documents\VSCodeProjects\AngularProjects\LoginAuth\BackEnd\AngularAuthAPI\AngularAuthAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
